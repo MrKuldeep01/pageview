@@ -163,7 +163,19 @@ footer {
   margin-top: 20px;
 }
 @media screen and (max-width: 770px) {
-  .footer-left,
+     
+      .content {
+        gap: 20px;  
+      }    
+      .content h3 {
+        font-size: 27px;
+        max-width: 40%;
+      }
+      img {
+        width: 25%;
+      }
+ 
+    .footer-left,
   .footer-right {
     flex-basis: 100%;
     font-size: 14px;
@@ -171,4 +183,17 @@ footer {
   .footer-img {
     top: 0%;
   }
+}
+@media screen and (max-width: 630px) {
+    .content {
+        flex-direction: column;
+        gap: 20px;  
+      }    
+      .content h3 {
+        font-size: 27px;
+        max-width: 90%;
+      }
+      img {
+        width: 45%;
+      }
 }
