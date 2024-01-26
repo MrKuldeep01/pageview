@@ -192,6 +192,7 @@ footer {
       .content h3 {
         font-size: 27px;
         max-width: 90%;
+        text-align: center;
       }
       img {
         width: 45%;
